@@ -13,7 +13,7 @@ git clone https://github.com/ludusregio/starships.git && cd ./starships
 Build a local image.
 
 ```
-docker built -t starships:latest .
+docker build -t starships:latest .
 ```
 Run a container with the image.
 
