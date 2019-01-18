@@ -8,15 +8,15 @@ Have docker and git installed, locally.
 Clone this repository and cd into the directory startships
 
 ```
-git clone https://github.com/ludusregio/starships.git && cd ./startships
+git clone https://github.com/ludusregio/starships.git && cd ./starships
 ```
 Build a local image.
 
 ```
-docker built -t startships:latest .
+docker built -t starships:latest .
 ```
 Run a container with the image.
 
 ```
-docker run -it --rm --name starwars startships:latest
+docker run -it --rm --name starwars starships:latest
 ```
